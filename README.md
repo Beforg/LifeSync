@@ -1,7 +1,6 @@
 # LifeSync
 
 Aplicativo para organização pessoal
-[Link para o donwload do projeto](https://drive.google.com/file/d/1JU2XyPNKodQLcdD8fVGTzP5ioLQgjfLx/view?usp=drive_link)
 
 ![](https://github.com/Beforg/assets/blob/main/lifesync/home.png)
 
