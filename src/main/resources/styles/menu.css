@@ -1,0 +1,30 @@
+
+.PaneMenuNavegacao {
+    -fx-background-color: #BDBFF6;
+    -fx-border-color: #9EA1E3;
+    -fx-border-width: 5;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+
+}
+
+.button {
+    -fx-background-color: none;
+    -fx-background-radius: 5;
+    -fx-text-fill: #ece5e5;
+    -fx-font-family: "Yu Gothic UI Light";
+    -fx-font-weight: bold;
+    -fx-pref-width: 200px;
+    -fx-font-size: 20px;
+    -fx-padding: 10;
+}
+.button:hover {
+    -fx-text-fill: #c1bdbd;
+
+}
+
+.button:pressed {
+    -fx-text-fill: #FAF0E6;
+
+}
+

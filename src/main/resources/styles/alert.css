@@ -1,0 +1,28 @@
+
+.pane {
+    -fx-background-color: #BDBFF6;
+}
+
+.label {
+    -fx-font-family: Yu Gothic UI;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane {
+    -fx-font-family: Yu Gothic UI;
+    -fx-font-size: 12px;
+}
+
+.button {
+    -fx-background-color: rgba(141, 141, 230, 0.5);
+    -fx-background-radius: 10;
+    -fx-font-family: Yu Gothic UI;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-pref-width: 120px;
+}
+
+.button:hover {
+    -fx-background-color: rgb(223, 212, 175);
+}

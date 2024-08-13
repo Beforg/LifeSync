@@ -1,0 +1,108 @@
+* {
+    -fx-cor-fundo-bt: #5C5470;
+    -fx-hover: #B9B4C7;
+    -fx-primary-color-dark: #352F44;
+    -fx-primary-color: #5C5470;
+    -fx-secondary-color: #B9B4C7;
+    -fx-light-color: #FAF0E6;
+
+    -fx-focus-color: -fx-secondary-color;
+}
+
+.paneLogin {
+    -fx-background-image: url('background-login.png');
+}
+
+.paneCadastro {
+    -fx-background-image: url('background-cadastro.png');
+}
+
+
+.text-field:focused {
+    -fx-background-color: none;
+
+}
+
+.password-field:focused {
+    -fx-background-color: none;
+
+}
+
+.label {
+    -fx-font-family: "Ysabeau Infant", sans-serif;
+}
+
+
+.button {
+    -fx-background-color: -fx-cor-fundo-bt;
+    -fx-background-radius: 15;
+    -fx-text-fill: #e4dede;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-text-fill: -fx-hover;
+}
+.date-picker {
+    -fx-background-color: none;
+}
+.date-picker:focused {
+    -fx-background-color: none;
+}
+.date-picker .arrow-button {
+    -fx-background-color: none;
+    -fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+    -fx-background-color: -fx-secondary-color;
+}
+.date-picker .arrow-button .arrow {
+    -fx-background-color: -fx-primary-color-dark;
+}
+.date-picker .cell {
+    -fx-background-color: white;
+}
+.date-picker .cell:hover {
+    -fx-background-color: -fx-light-grey-color;
+    -fx-text-fill: -fx-primary-color;
+}
+.date-picker .cell:focused {
+    -fx-background-color: -fx-light-grey-color;
+}
+.date-picker .selected {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+}
+.date-picker .selected:focused {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+}
+.date-picker-popup  {
+    -fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+    -fx-background-color: -fx-primary-color;
+}
+.date-picker-popup .month-year-pane .label {
+    -fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+    -fx-text-fill: -fx-secondary-color;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+    -fx-background-color: white;
+}
+.date-picker .text-field {
+    -fx-background-color: none;
+    -fx-text-fill: #e8dede;
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+}
+
+.textoSenha {
+    -fx-text-fill: red;
+    -fx-font-family: "Madimi One", sans-serif;
+    -fx-font-size: 15px;
+}
