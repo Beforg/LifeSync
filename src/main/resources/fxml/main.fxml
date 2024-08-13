@@ -36,8 +36,8 @@
    <children>
       <Pane fx:id="containerLogin" prefHeight="200.0" prefWidth="200.0" styleClass="paneLogin" stylesheets="@../styles/login-cadastro.css" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <TextField fx:id="tfUserLogin" alignment="CENTER" layoutX="662.0" layoutY="284.0" prefHeight="44.0" prefWidth="504.0" promptText="nome de usuário" styleClass="text-field-login" />
-            <PasswordField fx:id="tfPasswordLogin" alignment="CENTER" layoutX="662.0" layoutY="394.0" prefHeight="46.0" prefWidth="504.0" promptText="senha" styleClass="text-field-login" />
+            <TextField fx:id="tfUserLogin" alignment="CENTER" layoutX="662.0" layoutY="289.0" prefHeight="41.0" prefWidth="504.0" promptText="nome de usuário" styleClass="text-field-login" />
+            <PasswordField fx:id="tfPasswordLogin" alignment="CENTER" layoutX="662.0" layoutY="396.0" prefHeight="41.0" prefWidth="504.0" promptText="senha" styleClass="text-field-login" />
             <HBox alignment="CENTER" layoutX="508.0" layoutY="536.0" prefHeight="51.0" prefWidth="340.0" visible="false">
                <children>
                   <Label text="Ainda não possui um perfil?">
@@ -52,17 +52,12 @@
                   </Button>
                </children>
             </HBox>
-            <Button fx:id="botaoLogin" layoutX="1057.0" layoutY="486.0" mnemonicParsing="false" onAction="#entrarLogin" prefHeight="44.0" prefWidth="109.0" styleClass="botaoEntrar" text="Entrar">
+            <Button fx:id="botaoLogin" layoutX="1042.0" layoutY="473.0" mnemonicParsing="false" onAction="#entrarLogin" prefHeight="44.0" prefWidth="124.0" styleClass="botaoPrimeiroCd" text="Entrar">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
             <Label fx:id="textoCarregando" layoutX="662.0" layoutY="486.0" prefHeight="17.0" prefWidth="75.0" styleClass="textoLoading" text="Carregando..." visible="false" />
-            <ImageView fitHeight="36.0" fitWidth="50.0" layoutX="1173.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../images/login/showpass.png" />
-               </image>
-            </ImageView>
          </children>
       </Pane>
       <Pane fx:id="containerAplicacao" layoutY="3.0" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="3.0">
@@ -2618,7 +2613,7 @@
                               </ImageView>
                            </graphic></Label>
                         <ProgressBar fx:id="sobreProgressSubmeta" layoutX="145.0" layoutY="249.0" prefHeight="18.0" prefWidth="389.0" progress="0.0" />
-                        <Button fx:id="btSalvarEdicaoSubmeta" layoutX="437.0" layoutY="139.0" mnemonicParsing="false" onAction="#salvarEdicaoSubmeta" prefHeight="27.0" prefWidth="99.0" styleClass="botaoMural" text="Salvar" />
+                        <Button fx:id="btSalvarEdicaoSubmeta" layoutX="437.0" layoutY="139.0" mnemonicParsing="false" onAction="#salvarEdicaoSubmeta" prefHeight="27.0" prefWidth="99.0" styleClass="botaoMural" text="Salvar" visible="false" />
                         <VBox fx:id="vBoxEditaSubmeta" layoutX="143.0" layoutY="31.0" prefHeight="149.0" prefWidth="279.0" spacing="2.0" visible="false">
                            <children>
                               <TextField fx:id="tfEditaSubmeta" styleClass="textFieldPadrao" />
@@ -2656,7 +2651,7 @@
                                  </image>
                               </ImageView>
                            </graphic></Label>
-                        <Label fx:id="labelDataLimiteMetaView" alignment="CENTER" layoutX="753.0" layoutY="66.0" prefHeight="18.0" prefWidth="87.0" styleClass="labelIndicadora" text="Data limite" visible="false">
+                        <Label fx:id="labelDataLimiteMetaView" alignment="CENTER" layoutX="748.0" layoutY="66.0" prefHeight="20.0" prefWidth="107.0" styleClass="labelIndicadora" text="Data limite" visible="false">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -2676,7 +2671,7 @@
                               </ImageView>
                            </graphic></Label>
                         <TextField fx:id="tfCriarArea" layoutX="579.0" layoutY="59.0" prefHeight="32.0" prefWidth="295.0" styleClass="textFieldPadrao" visible="false" />
-                        <Button fx:id="btCriarArea" layoutX="891.0" layoutY="62.0" mnemonicParsing="false" onAction="#criarArea" prefHeight="27.0" prefWidth="128.0" styleClass="botaoEstudos" text="Adicionar" visible="false">
+                        <Button fx:id="btCriarArea" layoutX="891.0" layoutY="62.0" mnemonicParsing="false" onAction="#criarArea" prefHeight="31.0" prefWidth="136.0" styleClass="botaoEstudos" text="Adicionar" visible="false">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -2684,7 +2679,7 @@
                                  </image>
                               </ImageView>
                            </graphic></Button>
-                        <Button fx:id="btCriarMeta" layoutX="905.0" layoutY="200.0" mnemonicParsing="false" onAction="#criarMeta" prefHeight="27.0" prefWidth="114.0" styleClass="botaoEstudos" text="Criar meta" visible="false">
+                        <Button fx:id="btCriarMeta" layoutX="888.0" layoutY="200.0" mnemonicParsing="false" onAction="#criarMeta" prefHeight="31.0" prefWidth="135.0" styleClass="botaoEstudos" text="Criar meta" visible="false">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -2692,7 +2687,7 @@
                                  </image>
                               </ImageView>
                            </graphic></Button>
-                        <Button fx:id="btSalvarMeta" layoutX="917.0" layoutY="200.0" mnemonicParsing="false" onAction="#editarMeta" prefHeight="27.0" prefWidth="91.0" styleClass="botaoEstudos" text="Salvar" visible="false">
+                        <Button fx:id="btSalvarMeta" layoutX="887.0" layoutY="200.0" mnemonicParsing="false" onAction="#editarMeta" prefHeight="31.0" prefWidth="112.0" styleClass="botaoEstudos" text="Salvar" visible="false">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -2700,7 +2695,7 @@
                                  </image>
                               </ImageView>
                            </graphic></Button>
-                        <Button fx:id="btApagarMeta" layoutX="768.0" layoutY="198.0" mnemonicParsing="false" onAction="#apagarMeta" prefHeight="27.0" prefWidth="140.0" styleClass="botaoEstudosExcluir" text=" Apagar meta" visible="false">
+                        <Button fx:id="btApagarMeta" layoutX="742.0" layoutY="200.0" mnemonicParsing="false" onAction="#apagarMeta" prefHeight="27.0" prefWidth="140.0" styleClass="botaoEstudosExcluir" text=" Apagar meta" visible="false">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -2709,7 +2704,7 @@
                               </ImageView>
                            </graphic></Button>
                         <ChoiceBox fx:id="choiceBoxStatusMeta" layoutX="842.0" layoutY="107.0" prefHeight="34.0" prefWidth="180.0" visible="false" />
-                        <Label fx:id="labelStatusArea" alignment="CENTER" layoutX="753.0" layoutY="114.0" prefHeight="20.0" prefWidth="85.0" styleClass="labelIndicadora" text="Status" visible="false">
+                        <Label fx:id="labelStatusArea" alignment="CENTER" layoutX="753.0" layoutY="114.0" prefHeight="20.0" prefWidth="93.0" styleClass="labelIndicadora" text="Status" visible="false">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -2718,7 +2713,7 @@
                               </ImageView>
                            </graphic></Label>
                         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="39.0" prefHeight="25.0" prefWidth="326.0" styleClass="labelIndicadoraTitulo" text="Gerenciar Metas" />
-                        <Button alignment="TOP_LEFT" layoutX="6.0" layoutY="71.0" mnemonicParsing="false" onAction="#criarMetaView" prefHeight="31.0" prefWidth="150.0" styleClass="botaoEstudos" text="Criar nova Meta">
+                        <Button alignment="TOP_LEFT" layoutX="6.0" layoutY="71.0" mnemonicParsing="false" onAction="#criarMetaView" prefHeight="31.0" prefWidth="172.0" styleClass="botaoEstudos" text="Criar nova Meta">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -2749,7 +2744,7 @@
                      <children>
                         <Label alignment="CENTER" layoutX="345.0" layoutY="6.0" prefHeight="20.0" prefWidth="680.0" styleClass="labelIndicadoraTitulo" text="Submetas" />
                         <Label fx:id="labelAvisosSubmeta" alignment="CENTER" layoutX="345.0" layoutY="38.0" prefHeight="20.0" prefWidth="680.0" styleClass="labelIndicadoraAvisos" text="Minhas submetas" />
-                        <ListView fx:id="listaTodasSubmetas" layoutX="345.0" layoutY="68.0" prefHeight="117.0" prefWidth="680.0" styleClass="lista" visible="false" />
+                        <ListView fx:id="listaTodasSubmetas" layoutX="345.0" layoutY="68.0" prefHeight="117.0" prefWidth="680.0" styleClass="lista" />
                         <Button alignment="TOP_LEFT" layoutX="5.0" layoutY="71.0" mnemonicParsing="false" onAction="#novaSubmetaView" prefHeight="27.0" prefWidth="301.0" styleClass="botaoEstudos" text="Nova submeta">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -2767,7 +2762,7 @@
                                  </image>
                               </ImageView>
                            </graphic></Button>
-                        <GridPane fx:id="gridAdicionarSubmeta" layoutX="345.0" layoutY="59.0" prefHeight="123.0" prefWidth="680.0">
+                        <GridPane fx:id="gridAdicionarSubmeta" layoutX="345.0" layoutY="59.0" prefHeight="123.0" prefWidth="680.0" visible="false">
                           <columnConstraints>
                             <ColumnConstraints hgrow="SOMETIMES" maxWidth="197.0" minWidth="10.0" prefWidth="122.0" />
                             <ColumnConstraints hgrow="SOMETIMES" maxWidth="421.0" minWidth="10.0" prefWidth="347.0" />
@@ -2932,7 +2927,8 @@
                                     <Image url="@../images/ico/infotext.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label fx:id="nmStatus" alignment="CENTER" layoutX="75.0" layoutY="206.0" prefHeight="20.0" prefWidth="247.0" styleClass="labelIndicadoraInfos" text="Nenhuma selecionada" />
                         <Label alignment="CENTER" layoutX="-2.0" layoutY="120.0" prefHeight="20.0" prefWidth="72.0" styleClass="labelIndicadora" text="Nome">
                            <graphic>
@@ -2941,7 +2937,8 @@
                                     <Image url="@../images/ico/Star.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="-6.0" layoutY="150.0" prefHeight="20.0" prefWidth="72.0" styleClass="labelIndicadora" text="Data">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -2949,7 +2946,8 @@
                                     <Image url="@../images/ico/Calendar.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="-6.0" layoutY="179.0" prefHeight="20.0" prefWidth="72.0" styleClass="labelIndicadora" text="Área">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -2957,7 +2955,8 @@
                                     <Image url="@../images/ico/Variation.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label fx:id="mmNomeMeta" alignment="CENTER" layoutX="76.0" layoutY="120.0" prefHeight="20.0" prefWidth="247.0" styleClass="labelIndicadoraInfos" text="Nenhuma selecionada" />
                         <Label fx:id="nmDataMeta" alignment="CENTER" layoutX="76.0" layoutY="147.0" prefHeight="20.0" prefWidth="247.0" styleClass="labelIndicadoraInfos" text="Nenhuma selecionada" />
                         <Label alignment="CENTER" layoutX="-1.0" layoutY="207.0" prefHeight="20.0" prefWidth="68.0" styleClass="labelIndicadora" text="Status">
@@ -2967,7 +2966,8 @@
                                     <Image url="@../images/ico/andamento.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label fx:id="nmAreaMeta" alignment="CENTER" layoutX="75.0" layoutY="176.0" prefHeight="20.0" prefWidth="247.0" styleClass="labelIndicadoraInfos" text="Nenhuma selecionada" />
                         <Label alignment="CENTER" layoutX="-4.0" layoutY="89.0" prefHeight="20.0" prefWidth="326.0" styleClass="labelIndicadora" text="Detalhe da meta:">
                            <graphic>
@@ -2976,7 +2976,8 @@
                                     <Image url="@../images/ico/Star.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="333.0" layoutY="89.0" prefHeight="20.0" prefWidth="334.0" styleClass="labelIndicadora" text="Detalhe da Submeta">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -2984,7 +2985,8 @@
                                     <Image url="@../images/ico/Star-stroked.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="674.0" layoutY="89.0" prefHeight="20.0" prefWidth="347.0" styleClass="labelIndicadora" text="Detalha da Tarefa:">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -2992,7 +2994,8 @@
                                     <Image url="@../images/ico/tarefas.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="339.0" layoutY="120.0" prefHeight="20.0" prefWidth="69.0" styleClass="labelIndicadora" text="Nome">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3000,7 +3003,8 @@
                                     <Image url="@../images/ico/Star-stroked.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="338.0" layoutY="149.0" prefHeight="20.0" prefWidth="66.0" styleClass="labelIndicadora" text="Data">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3008,7 +3012,8 @@
                                     <Image url="@../images/ico/Calendar.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="341.0" layoutY="178.0" prefHeight="20.0" prefWidth="66.0" styleClass="labelIndicadora" text="Status">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3016,7 +3021,8 @@
                                     <Image url="@../images/ico/andamento.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="14.0" layoutY="261.0" prefHeight="18.0" prefWidth="155.0" styleClass="labelIndicadora" text="Submetas associadas">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3024,7 +3030,8 @@
                                     <Image url="@../images/ico/Star-stroked.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="14.0" layoutY="285.0" prefHeight="18.0" prefWidth="155.0" styleClass="labelIndicadora" text="Submetas concluídas">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3032,7 +3039,8 @@
                                     <Image url="@../images/ico/Star-stroked.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="345.0" layoutY="261.0" prefHeight="20.0" prefWidth="150.0" styleClass="labelIndicadora" text="Tarefas associadas">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3040,7 +3048,8 @@
                                     <Image url="@../images/ico/tarefas.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="345.0" layoutY="290.0" prefHeight="20.0" prefWidth="150.0" styleClass="labelIndicadora" text="Tarefas Concluídas">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3048,7 +3057,8 @@
                                     <Image url="@../images/ico/tarefas.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="101.0" layoutY="322.0" prefHeight="17.0" prefWidth="120.0" styleClass="labelIndicadora" text="Progresso">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3056,7 +3066,8 @@
                                     <Image url="@../images/ico/stats.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="CENTER" layoutX="437.0" layoutY="322.0" prefHeight="17.0" prefWidth="120.0" styleClass="labelIndicadora" text="Progresso">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3064,7 +3075,8 @@
                                     <Image url="@../images/ico/stats.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="TOP_LEFT" layoutX="678.0" layoutY="120.0" prefHeight="20.0" prefWidth="100.0" styleClass="labelIndicadora" text="Nome">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3072,7 +3084,8 @@
                                     <Image url="@../images/ico/tarefas.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="TOP_LEFT" layoutX="678.0" layoutY="144.0" prefHeight="20.0" prefWidth="100.0" styleClass="labelIndicadora" text="Data">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3080,7 +3093,8 @@
                                     <Image url="@../images/ico/calendario.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="TOP_LEFT" layoutX="686.0" layoutY="305.0" prefHeight="20.0" prefWidth="100.0" styleClass="labelIndicadora" text="Descrição">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3088,7 +3102,8 @@
                                     <Image url="@../images/ico/TXT.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="TOP_LEFT" layoutX="678.0" layoutY="171.0" prefHeight="20.0" prefWidth="100.0" styleClass="labelIndicadora" text="Categoria">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3096,7 +3111,8 @@
                                     <Image url="@../images/ico/categoria.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="TOP_LEFT" layoutX="678.0" layoutY="199.0" prefHeight="20.0" prefWidth="100.0" styleClass="labelIndicadora" text="Prioridade">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3104,7 +3120,8 @@
                                     <Image url="@../images/ico/prioridade.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label alignment="TOP_LEFT" layoutX="678.0" layoutY="227.0" prefHeight="20.0" prefWidth="100.0" styleClass="labelIndicadora" text="Status">
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -3112,7 +3129,8 @@
                                     <Image url="@../images/ico/andamento.png" />
                                  </image>
                               </ImageView>
-                           </graphic></Label>
+                           </graphic>
+                        </Label>
                         <Label fx:id="nmAssociadasMeta" alignment="CENTER" layoutX="178.0" layoutY="261.0" prefHeight="20.0" prefWidth="136.0" styleClass="labelIndicadoraInfos" text="Nenhuma selecionada" />
                         <Label fx:id="nmConcluidasMeta" alignment="CENTER" layoutX="178.0" layoutY="285.0" prefHeight="20.0" prefWidth="136.0" styleClass="labelIndicadoraInfos" text="Nenhuma selecionada" />
                         <ProgressBar fx:id="nmProgressoMeta" layoutX="-3.0" layoutY="356.0" prefHeight="18.0" prefWidth="326.0" progress="0.0" />
@@ -3829,7 +3847,7 @@
                </font></TextField>
             <TextField fx:id="tfNomeUsuarioCadastro" alignment="CENTER" layoutX="663.0" layoutY="488.0" prefHeight="44.0" prefWidth="504.0" promptText="nome de usuario" />
             <PasswordField fx:id="tfSenhaCadastro" alignment="CENTER" layoutX="663.0" layoutY="598.0" prefHeight="44.0" prefWidth="504.0" promptText="senha" />
-            <DatePicker fx:id="dataPickerCadastro" layoutX="639.0" layoutY="380.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="556.0" promptText="data de nascimento" styleClass="data-picker">
+            <DatePicker fx:id="dataPickerCadastro" layoutX="639.0" layoutY="380.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="556.0" promptText="data de nascimento" styleClass="date-picker2" stylesheets="@../styles/dp.css">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -3838,13 +3856,13 @@
                </padding>
             </DatePicker>
             <Button layoutX="84.0" layoutY="55.0" mnemonicParsing="false" onAction="#voltarLogin" prefHeight="58.0" prefWidth="109.0" styleClass="botaoEntrar" text="Voltar" visible="false" />
-            <Button fx:id="botaoCadastrar" disable="true" layoutX="1040.0" layoutY="679.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="51.0" prefWidth="127.0" styleClass="botaoEntrar" text="criar" />
+            <Button fx:id="botaoCadastrar" disable="true" layoutX="1040.0" layoutY="672.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="27.0" prefWidth="127.0" styleClass="botaoPrimeiroCd" text="criar" />
             <Label fx:id="textoSenha" layoutX="544.0" layoutY="663.0" prefHeight="31.0" prefWidth="301.0" styleClass="textoSenha" text="*A senha deve ter no mínimo 6 caracteres." visible="false" wrapText="true" />
          </children>
       </Pane>
       <Pane fx:id="paneBoasVindas" layoutX="229.0" layoutY="148.0" prefHeight="200.0" prefWidth="200.0" styleClass="backgroundPrimeiraTela" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button layoutX="552.0" layoutY="610.0" mnemonicParsing="false" onAction="#comecarAplicacaoCadastro" prefHeight="45.0" prefWidth="186.0" styleClass="botaoMural" text="Começar" />
+            <Button layoutX="673.0" layoutY="597.0" mnemonicParsing="false" onAction="#comecarAplicacaoCadastro" prefHeight="35.0" prefWidth="546.0" styleClass="botaoPrimeiroCd" text="Começar" />
          </children></Pane>
    </children>
 </AnchorPane>

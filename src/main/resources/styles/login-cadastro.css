@@ -18,6 +18,7 @@
 }
 
 
+
 .text-field:focused {
     -fx-background-color: none;
 
@@ -96,7 +97,7 @@
 }
 .date-picker .text-field {
     -fx-background-color: none;
-    -fx-text-fill: #e8dede;
+    -fx-text-fill: #ffffff;
     -fx-font-size: 14px;
     -fx-alignment: center;
 }
@@ -106,3 +107,4 @@
     -fx-font-family: "Madimi One", sans-serif;
     -fx-font-size: 15px;
 }
+

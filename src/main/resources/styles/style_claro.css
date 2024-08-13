@@ -186,9 +186,9 @@ AnchorPane {
     -fx-text-fill: -fx-cor-fonte;
     -fx-font-family: -fx-fonte-light;
     -fx-font-size: 14px;
-    -fx-prompt-text-fill: -fx-cor-prompt;
     -fx-background-color: transparent;
     -fx-background-radius: 1;
+    -fx-prompt-text-fill: #bcb0b0;
 
 }
 
@@ -307,6 +307,21 @@ AnchorPane {
 }
 
 .botaoMural:pressed {
+    -fx-background-color: -fx-cor-selecionado;
+}
+.botaoPrimeiroCd {
+     -fx-background-color: linear-gradient(to bottom, #3c364e, rgb(92, 84, 112));
+    -fx-background-radius: 15;
+    -fx-text-fill: white;
+    -fx-font-family: "Yu Gothic UI";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.botaoPrimeiroCd:hover {
+    -fx-background-color: -fx-cor-hover;
+}
+
+.botaoPrimeiroCd:pressed {
     -fx-background-color: -fx-cor-selecionado;
 }
 

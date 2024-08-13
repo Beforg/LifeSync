@@ -1,3 +1,35 @@
 Manifest-Version: 1.0
 Main-Class: br.com.myegoo.app.myego.Launcher
+Class-Path: lib/javafx-base-17.0.6-win.jar lib/jakarta.validation-api-3.
+ 0.2.jar lib/javafx-graphics-17.0.6-win.jar lib/hibernate-validator-8.0.
+ 1.Final.jar lib/spring-boot-starter-aop-3.2.3.jar lib/hibernate-commons
+ -annotations-6.0.6.Final.jar lib/spring-boot-starter-3.2.3.jar lib/spri
+ ng-tx-6.1.4.jar lib/javafx-fxml-17.0.6-win.jar lib/slf4j-api-2.0.12.jar
+  lib/jul-to-slf4j-2.0.12.jar lib/spring-boot-starter-logging-3.2.3.jar 
+ lib/javafx-graphics-17.0.6.jar lib/spring-security-core-6.2.2.jar lib/s
+ pring-security-web-6.2.2.jar lib/classmate-1.6.0.jar lib/checker-qual-3
+ .31.0.jar lib/logback-classic-1.4.14.jar lib/antlr4-runtime-4.13.0.jar 
+ lib/jakarta.activation-api-2.1.2.jar lib/jaxb-core-4.0.4.jar lib/javafx
+ -fxml-17.0.6.jar lib/spring-core-6.1.4.jar lib/javafx-media-17.0.6.jar 
+ lib/istack-commons-runtime-4.1.2.jar lib/txw2-4.0.4.jar lib/spring-boot
+ -starter-security-3.2.3.jar lib/spring-security-config-6.2.2.jar lib/ja
+ vafx-controls-17.0.6.jar lib/hibernate-core-6.4.4.Final.jar lib/jaxb-ru
+ ntime-4.0.4.jar lib/micrometer-commons-1.12.3.jar lib/spring-web-6.1.4.
+ jar lib/spring-context-6.1.4.jar lib/controlsfx-11.1.1.jar lib/tomcat-e
+ mbed-el-10.1.19.jar lib/jakarta.inject-api-2.0.1.jar lib/javafx-media-1
+ 7.0.6-win.jar lib/spring-aop-6.1.4.jar lib/spring-data-commons-3.2.3.ja
+ r lib/spring-orm-6.1.4.jar lib/spring-boot-starter-jdbc-3.2.3.jar lib/s
+ pring-security-crypto-6.2.2.jar lib/jakarta.persistence-api-3.1.0.jar l
+ ib/HikariCP-5.0.1.jar lib/hsqldb-2.5.1.jar lib/jandex-3.1.2.jar lib/log
+ 4j-to-slf4j-2.21.1.jar lib/spring-jdbc-6.1.4.jar lib/angus-activation-2
+ .0.1.jar lib/spring-boot-starter-data-jpa-3.2.3.jar lib/byte-buddy-1.14
+ .12.jar lib/spring-jcl-6.1.4.jar lib/snakeyaml-2.2.jar lib/spring-expre
+ ssion-6.1.4.jar lib/spring-data-jpa-3.2.3.jar lib/log4j-api-2.21.1.jar 
+ lib/jakarta.transaction-api-2.0.1.jar lib/spring-boot-starter-validatio
+ n-3.2.3.jar lib/spring-aspects-6.1.4.jar lib/aspectjweaver-1.9.21.jar l
+ ib/spring-beans-6.1.4.jar lib/spring-boot-3.2.3.jar lib/jakarta.xml.bin
+ d-api-4.0.1.jar lib/postgresql-42.6.1.jar lib/javafx-controls-17.0.6-wi
+ n.jar lib/spring-boot-autoconfigure-3.2.3.jar lib/logback-core-1.4.14.j
+ ar lib/javafx-base-17.0.6.jar lib/jboss-logging-3.5.3.Final.jar lib/jak
+ arta.annotation-api-2.1.1.jar lib/micrometer-observation-1.12.3.jar
 
